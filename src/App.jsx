@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='w-screen h-screen flex justify-center items-center'>
+    <div className='w-screen h-screen flex flex-col justify-center items-center'>
       <Post />
       <div className='flex items-center gap-3 mt-3'>
       {Array.from({length:5}).map((value, index) => {
